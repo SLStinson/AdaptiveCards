@@ -40,6 +40,8 @@ public:
     std::shared_ptr<BaseActionElement> GetSelectAction() const;
     void SetSelectAction(const std::shared_ptr<BaseActionElement> action);
 
+    virtual void GetResourceUris(std::vector<std::string>& resourceUris) override;
+
 private:
     void PopulateKnownPropertiesSet();
 

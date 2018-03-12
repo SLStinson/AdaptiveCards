@@ -159,3 +159,10 @@ void Image::PopulateKnownPropertiesSet()
     m_knownProperties.insert(AdaptiveCardSchemaKeyToString(AdaptiveCardSchemaKey::HorizontalAlignment));
     m_knownProperties.insert(AdaptiveCardSchemaKeyToString(AdaptiveCardSchemaKey::SelectAction));
 }
+
+void Image::GetResourceUris(std::vector<std::string>& resourceUris)
+{
+    auto url = GetUrl();
+    resourceUris.push_back(url);
+    return;
+}
