@@ -71,7 +71,6 @@ enum class AdaptiveCardSchemaKey
     DateInput,
     Default,
     Emphasis,
-    Explicit,
     ExtraLarge,
     Facts,
     FactSet,
@@ -80,6 +79,7 @@ enum class AdaptiveCardSchemaKey
     FontSizes,
     FontWeights,
     Good,
+    Height,
     HorizontalAlignment,
     IconPlacement,
     IconUrl,
@@ -89,8 +89,6 @@ enum class AdaptiveCardSchemaKey
     ImageSet,
     ImageSize,
     ImageSizes,
-    PixelWidth,
-    PixelHeight,
     InlineTopMargin,
     IsMultiline,
     IsMultiSelect,
@@ -198,7 +196,6 @@ enum class ImageSize {
     Small,
     Medium,
     Large,
-    Explicit,
 };
 
 enum class TextInputStyle {
